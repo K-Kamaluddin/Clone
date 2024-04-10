@@ -1,0 +1,66 @@
+[
+	{
+		"id": 8,
+		"image": "img/products/painting_2_1.jpeg",
+		"brand": "Clone Arts",
+		"name": "Set of 3 Wall Paintings Digital Reprint 13.5 inch x 10.5 inch",
+		"price": "750",
+		"singleProduct": "product-pages/painting_2.html"
+	},
+	{
+		"id": 9,
+		"image": "img/products/f_painting_2_1.jpeg",
+		"brand": "Indian Ara",
+		"name": "Set of 3 Flower Paintings (With Frame) Digital Reprint 13.5 inch x 10.5 inch",
+		"price": "539",
+		"singleProduct": "product-pages/f_painting_2.html"
+	},
+	{
+		"id": 10,
+		"image": "img/products/tree_2_1.jpeg",
+		"brand": "T-Enterprises",
+		"name": "Artificial Flower Pot for Home/Office Table Decoration",
+		"price": "249",
+		"singleProduct": "product-pages/tree_2.html"
+	},
+	{
+		"id": 11,
+		"image": "img/products/diary_2_1.jpeg",
+		"brand": "Antique Leather Store",
+		"name": "Premium A5 Diary Un-Ruled 144 Pages",
+		"price": "399",
+		"singleProduct": "product-pages/diary_2.html"
+	},
+	{
+		"id": 12,
+		"image": "img/products/t_decoration_2_1.jpeg",
+		"brand": "Metal Craft",
+		"name": "Decorative Metal Showpiece for Home/Office",
+		"price": "549",
+		"singleProduct": "product-pages/t_decoration_2.html"
+	},
+	{
+		"id": 13,
+		"image": "img/products/showpiece_2_1.jpeg",
+		"brand": "S-Creations",
+		"name": "Decorative Showpiece for Gift",
+		"price": "249",
+		"singleProduct": "product-pages/showpiece_2.html"
+	},
+	{
+		"id": 14,
+		"image": "img/products/toy_2_1.jpeg",
+		"brand": "Toy Arts",
+		"name": "Toy for Kinds and Home Decorative Showpiece",
+		"price": "450",
+		"singleProduct": "product-pages/toy_2.html"
+	},
+	{
+		"id": 15,
+		"image": "img/products/t_lamp_2_1.jpeg",
+		"brand": "K-Enterprises",
+		"name": "Wooden Table Lamp with Creative Design (25.5 cm, Black)",
+		"price": "499",
+		"singleProduct": "product-pages/t_lamp_2.html"
+	}
+]

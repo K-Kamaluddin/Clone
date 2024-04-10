@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+		<link rel="icon" href="../img/logo/t_logo.png" />
+
+		<title>Product Pages</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="#"><img id="logo" src="../img/logo/logo.png" alt="Company Logo" /></a>
+			<div id="nav-search">
+				<input type="search" name="search" class="search-input" placeholder="Search Clone" />
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+			</div>
+			<ul id="navbar">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../pages/shop.html" class="active">Shop</a></li>
+				<li><a href="../pages/about.html">About</a></li>
+				<li><a href="../pages/contact.html">Contact</a></li>
+				<i id="m-close" class="fa-solid fa-close"></i>
+			</ul>
+			<div id="cart-user">
+				<a href="../pages/cart.html" id="nav-cart"><i class="fa-solid fa-cart-shopping"></i><span id="quantity">0</span></a>
+				<i id="nav-user" class="fa-solid fa-circle-user"></i>
+				<i id="m-bar" class="fa-solid fa-outdent"></i>
+			</div>
+			<div id="m-nav-search">
+				<input type="search" name="search" class="search-input" placeholder="Search Clone" />
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+			</div>
+		</header>
+
+		<section id="login-container">
+			<div class="login-box">
+				<span class="close-icon">
+					<i class="fa-solid fa-close"></i>
+				</span>
+				<div class="form-box login">
+					<h2>Login</h2>
+					<form action="#">
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-envelope"></i>
+							</span>
+							<input type="email" id="login-email" required />
+							<label for="login-email">Email</label>
+						</div>
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-lock"></i>
+							</span>
+							<input type="password" id="login-password" required />
+							<label for="login-password">Password</label>
+						</div>
+						<div class="remember-forget">
+							<div>
+								<input type="checkbox" id="remember" />
+								<label for="remember">Remember me</label>
+							</div>
+							<a href="#">Forget Password?</a>
+						</div>
+						<button type="submit" class="default">Login</button>
+						<div class="register">
+							<p>
+								Don't have an account?
+								<a href="#" class="register-link">Register</a>
+							</p>
+						</div>
+					</form>
+				</div>
+				<div class="form-box register">
+					<h2>Registration</h2>
+					<form action="#">
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-user"></i>
+							</span>
+							<input type="text" id="username" required />
+							<label for="usename">Username</label>
+						</div>
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-envelope"></i>
+							</span>
+							<input type="email" id="registration-email" required />
+							<label for="registration-email">Email</label>
+						</div>
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-lock"></i>
+							</span>
+							<input type="password" id="registration-password" required />
+							<label for="registration-password">Password</label>
+						</div>
+						<div class="remember-forget">
+							<div>
+								<input type="checkbox" id="agree" />
+								<label for="agree">I am agreeing the terms & conditions</label>
+							</div>
+						</div>
+						<button type="submit" class="default">Register</button>
+						<div class="register">
+							<p>
+								Already have an account?
+								<a href="#" class="login-link">Login</a>
+							</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section id="single-product-container" class="section-p1">
+			<div class="img-container">
+				<div class="product-img">
+					<div id="zoom">
+						<img src="../img/products/f_painting_1_1.jpeg" width="100%" id="main-img" />
+						<div id="lens"></div>
+					</div>
+					<div class="small-img-container">
+						<div class="small-img-col">
+							<img src="../img/products/f_painting_1_1.jpeg" width="100%" class="small-img" />
+						</div>
+						<div class="small-img-col">
+							<img src="../img/products/f_painting_1_2.jpeg" width="100%" class="small-img" />
+						</div>
+						<div class="small-img-col">
+							<img src="../img/products/f_painting_size.jpeg" width="100%" class="small-img" />
+						</div>
+						<div class="small-img-col">
+							<img src="../img/products/quality.jpeg" width="100%" class="small-img" />
+						</div>
+					</div>
+					<div id="zoom-result"></div>
+				</div>
+			</div>
+			<div class="details-container">
+				<h6>Product / Painting</h6>
+				<h4>Flower Painting</h4>
+				<h2>₹539.00</h2>
+				<input type="number" value="1" min="1" />
+				<button class="default">Add to Cart</button>
+				<h4>Product Description</h4>
+				<span>Introducing our exquisite Set of 3 Flower Paintings, each featuring a stunning digital reprint of a beautiful floral arrangement. Measuring 13.5 inches by 10.5 inches, these paintings come complete with a sleek and stylish frame, adding a touch of elegance to any room. The high-quality digital printing ensures that the intricate details and vibrant colors of the original artwork are captured with precision. Perfect for art enthusiasts and interior design aficionados alike, this set of paintings is a must-have addition to any home or office space. Order now and elevate your decor to new heights.</span>
+				<h4>Rating ...</h4>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+			</div>
+		</section>
+
+		<section id="similar-products" class="section-p1">
+			<h2>Similar Products</h2>
+			<p>Prestigious Collection of New Modern Arts</p>
+			<hr />
+			<div id="product-container" class="similar-products-container">
+				<!-- Products will be displayed using JavaScript and JSON file. -->
+			</div>
+		</section>
+
+		<section id="news-letter" class="section-p1">
+			<div class="n-text">
+				<h4>Sign Up for News Letters</h4>
+				<p>Get E-Mail Updates about Latest Shop and <span>Special Offers</span>.</p>
+			</div>
+			<div class="n-form">
+				<input type="email" placeholder="Your email address" />
+				<button>Sign Up</button>
+			</div>
+		</section>
+
+		<footer class="section-p1">
+			<div id="column-container">
+				<div class="col">
+					<img src="../img/logo/logo.png" alt="Company Logo" class="logo" />
+					<h4>Contact</h4>
+					<p><strong>Address:</strong> 228/S - K Street, Mussoorie, India</p>
+					<p><strong>Phone:</strong> +91 7012847536, +91 4007456312</p>
+					<p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+					<div class="follow">
+						<h4>Follow Us</h4>
+						<div class="icon">
+							<i class="fa-brands fa-facebook-f"></i>
+							<i class="fa-brands fa-twitter"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-pinterest"></i>
+							<i class="fa-brands fa-youtube"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<h4>About</h4>
+					<a href="#">About Us</a>
+					<a href="#">Delivery Information</a>
+					<a href="#">Privacy Policy</a>
+					<a href="#">Terms & Conditions</a>
+					<a href="#">Contact Us</a>
+				</div>
+				<div class="col">
+					<h4>My Account</h4>
+					<a href="#">Sign In</a>
+					<a href="#">View Cart</a>
+					<a href="#">My Wishlist</a>
+					<a href="#">Track My Order</a>
+					<a href="#">Help</a>
+				</div>
+				<div class="col">
+					<h4>Install App</h4>
+					<p>From App Store or Google Play</p>
+					<div class="app">
+						<img src="../img/app/apple_store.png" />
+						<img src="../img/app/google_play.png" />
+					</div>
+					<p>Secured Payment Gateways</p>
+					<div class="payment-gateway">
+						<img src="../img/app/visa.png" />
+						<img src="../img/app/rupay.png" />
+						<img src="../img/app/master_card.png" />
+						<img src="../img/app/maestro.png" />
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="copyright">
+				<p>Copyright © 2024 by <strong>Clone</strong> - All Rights Reserved</p>
+			</div>
+		</footer>
+
+		<script src="../main.js"></script>
+		<script>
+			/* Script to Change and Zoom Product Images */
+
+			const mainImg = document.getElementById("main-img");
+			const smallImg = document.getElementsByClassName("small-img");
+			const zoom = document.getElementById("zoom");
+
+			smallImg[0].onclick = function () {
+				mainImg.src = smallImg[0].src;
+			};
+			smallImg[1].onclick = function () {
+				mainImg.src = smallImg[1].src;
+			};
+			smallImg[2].onclick = function () {
+				mainImg.src = smallImg[2].src;
+			};
+			smallImg[3].onclick = function () {
+				mainImg.src = smallImg[3].src;
+			};
+
+			zoom.addEventListener("mousemove", function (e) {
+				var X = e.clientX - zoom.offsetLeft;
+				var Y = e.clientY - zoom.offsetTop;
+				var mWidth = zoom.offsetWidth;
+				var mHeight = zoom.offsetHeight;
+				lens.style.left = X + "px";
+				lens.style.top = Y + "px";
+				X = (X / mWidth) * 100;
+				Y = (Y / mHeight) * 100;
+				mainImg.style.transform = "translate(-" + X + "%, -" + Y + "%) scale(2)";
+				mainImg.style.transition = "ease 0.2s";
+				zoom.style.border = "2px solid #041226";
+				zoom.style.borderRadius = "5px";
+			});
+
+			zoom.addEventListener("mouseleave", function () {
+				mainImg.style.transform = "translate(-50%, -50%) scale(1)";
+				mainImg.style.transition = "ease 0.2s";
+				zoom.style.border = "none";
+				zoom.style.borderRadius = "none";
+			});
+
+			/* Script to Display Similar Products */
+
+			const productJSON = "../json/products.json";
+			const similarProductsContainer = document.querySelector(".similar-products-container");
+			fetch(productJSON)
+				.then((response) => {
+					return response.json();
+				})
+				.then((data) => {
+					data.forEach((element) => {
+						if (element.category == "Flower Painting" && element.id != 1) {
+							similarProductsContainer.innerHTML += `
+							<div class="product" onclick="window.location.href='${element.singleProductURL}'">
+								<img src="${element.image}">
+								<div class="product-details">
+									<div class="des">
+										<span>${element.brand}</span>
+										<h5>${element.title}</h5>
+									</div>
+									<div class="rating">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<div class="price">
+										<h4>₹${element.price}</h4>
+										<div class="s-logo">
+											<img src="../img/logo/s_logo.png">
+										</div>
+									</div>
+								</div>
+							</div>`;
+						}
+					});
+				});
+		</script>
+	</body>
+</html>

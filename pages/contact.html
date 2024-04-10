@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+		<link rel="icon" href="../img/logo/t_logo.png" />
+
+		<title>Contact</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="#"><img id="logo" src="../img/logo/logo.png" alt="Company Logo" /></a>
+			<div id="nav-search">
+				<input type="search" name="search" class="search-input" placeholder="Search Clone" />
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+			</div>
+			<ul id="navbar">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../pages/shop.html">Shop</a></li>
+				<li><a href="../pages/about.html">About</a></li>
+				<li><a href="../pages/contact.html" class="active">Contact</a></li>
+				<i id="m-close" class="fa-solid fa-close"></i>
+			</ul>
+			<div id="cart-user">
+				<a href="../pages/cart.html" id="nav-cart">
+					<i class="fa-solid fa-cart-shopping"></i><span id="quantity">0</span>
+				</a>
+				<i id="nav-user" class="fa-solid fa-circle-user"></i>
+				<i id="m-bar" class="fa-solid fa-outdent"></i>
+			</div>
+			<div id="m-nav-search">
+				<input type="search" name="search" class="search-input" placeholder="Search Clone" />
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+			</div>
+		</header>
+
+		<section id="login-container">
+			<div class="login-box">
+				<span class="close-icon">
+					<i class="fa-solid fa-close"></i>
+				</span>
+				<div class="form-box login">
+					<h2>Login</h2>
+					<form action="#">
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-envelope"></i>
+							</span>
+							<input type="email" id="login-email" required />
+							<label for="login-email">Email</label>
+						</div>
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-lock"></i>
+							</span>
+							<input type="password" id="login-password" required />
+							<label for="login-password">Password</label>
+						</div>
+						<div class="remember-forget">
+							<div>
+								<input type="checkbox" id="remember" />
+								<label for="remember">Remember me</label>
+							</div>
+							<a href="#">Forget Password?</a>
+						</div>
+						<button type="submit" class="default">Login</button>
+						<div class="register">
+							<p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+						</div>
+					</form>
+				</div>
+				<div class="form-box register">
+					<h2>Registration</h2>
+					<form action="#">
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-user"></i>
+							</span>
+							<input type="text" id="username" required />
+							<label for="usename">Username</label>
+						</div>
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-envelope"></i>
+							</span>
+							<input type="email" id="registration-email" required />
+							<label for="registration-email">Email</label>
+						</div>
+						<div class="input-box">
+							<span class="login-input-icon">
+								<i class="fa-solid fa-lock"></i>
+							</span>
+							<input type="password" id="registration-password" required />
+							<label for="registration-password">Password</label>
+						</div>
+						<div class="remember-forget">
+							<div>
+								<input type="checkbox" id="agree" />
+								<label for="agree">I am agreeing the terms & conditions</label>
+							</div>
+						</div>
+						<button type="submit" class="default">Register</button>
+						<div class="register">
+							<p>Already have an account? <a href="#" class="login-link">Login</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section id="page-head">
+			<h2><img src="../img/logo/h_logo.png">Let'sTalk</h2>
+			<p>Leave a message, we love to hear from you!</p>
+		</section>
+
+		<section id="contact-details" class="section-p1">
+			<div class="details-container">
+				<h5>GET IN TOUCH</h5>
+				<h3>Visit one of our agency locations or contact us today...</h3>
+				<h4>Head Office</h4>
+				<div class="details">
+					<div class="details-row">
+						<i class="fa-solid fa-map"></i>
+						<p>228/S - K Street, Mussoorie, India</p>
+					</div>
+					<div class="details-row">
+						<i class="fa-solid fa-envelope"></i>
+						<p>contact@clone.com</p>
+					</div>
+					<div class="details-row">
+						<i class="fa-solid fa-phone"></i>
+						<p>+91 7012847536, +91 4007456312</p>
+					</div>
+					<div class="details-row">
+						<i class="fa-solid fa-clock"></i>
+						<p>Monday to Saturday - 10:00 AM to 06:00 PM</p>
+					</div>
+				</div>
+			</div>
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33384.234457226084!2d78.04935512778128!3d30.457613516795117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d0cfa61cda5b%3A0x197fd47d980e85b1!2sMussoorie%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1698216738706!5m2!1sen!2sin"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</section>
+
+		<section id="form-container" class="section-p1">
+			<form action="">
+				<h5>LEAVE A MESSAGE</h5>
+				<h3>We love to hear from you.</h3>
+				<input type="text" placeholder="Your Name" />
+				<input type="email" placeholder="E-Mail" />
+				<input type="text" placeholder="Subject" />
+				<textarea rows="10" placeholder="Your Message"></textarea>
+				<button class="default">Submit</button>
+			</form>
+			<div class="people-container">
+				<div class="people">
+					<img src="../img/people.jpeg" />
+					<p>
+						<span>Name First</span><br />Senior Marketing Manager<br />Phone: +000 123 123 45 45<br />Email:
+						contact@clone.com
+					</p>
+				</div>
+				<div class="people">
+					<img src="../img/people.jpeg" />
+					<p>
+						<span>Name Second</span><br />Senior Marketing Manager<br />Phone: +000 123 123 45 45<br />Email:
+						contact@clone.com
+					</p>
+				</div>
+				<div class="people">
+					<img src="../img/people.jpeg" />
+					<p>
+						<span>Name Third</span><br />Senior Marketing Manager<br />Phone: +000 123 123 45 45<br />Email:
+						contact@clone.com
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="news-letter" class="section-p1">
+			<div class="n-text">
+				<h4>Sign Up for News Letters</h4>
+				<p>Get E-Mail Updates about Latest Shop and <span>Special Offers</span>.</p>
+			</div>
+			<div class="n-form">
+				<input type="email" placeholder="Your email address" />
+				<button>Sign Up</button>
+			</div>
+		</section>
+
+		<footer class="section-p1">
+			<div id="column-container">
+				<div class="col">
+					<img src="../img/logo/logo.png" alt="Company Logo" class="logo" />
+					<h4>Contact</h4>
+					<p><strong>Address:</strong> 228/S - K Street, Mussoorie, India</p>
+					<p><strong>Phone:</strong> +91 7012847536, +91 4007456312</p>
+					<p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+					<div class="follow">
+						<h4>Follow Us</h4>
+						<div class="icon">
+							<i class="fa-brands fa-facebook-f"></i>
+							<i class="fa-brands fa-twitter"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-pinterest"></i>
+							<i class="fa-brands fa-youtube"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<h4>About</h4>
+					<a href="#">About Us</a>
+					<a href="#">Delivery Information</a>
+					<a href="#">Privacy Policy</a>
+					<a href="#">Terms & Conditions</a>
+					<a href="#">Contact Us</a>
+				</div>
+				<div class="col">
+					<h4>My Account</h4>
+					<a href="#">Sign In</a>
+					<a href="#">View Cart</a>
+					<a href="#">My Wishlist</a>
+					<a href="#">Track My Order</a>
+					<a href="#">Help</a>
+				</div>
+				<div class="col">
+					<h4>Install App</h4>
+					<p>From App Store or Google Play</p>
+					<div class="app">
+						<img src="../img/app/apple_store.png" />
+						<img src="../img/app/google_play.png" />
+					</div>
+					<p>Secured Payment Gateways</p>
+					<div class="payment-gateway">
+						<img src="../img/app/visa.png" />
+						<img src="../img/app/rupay.png" />
+						<img src="../img/app/master_card.png" />
+						<img src="../img/app/maestro.png" />
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="copyright">
+				<p>Copyright © 2024 by <strong>Clone</strong> - All Rights Reserved</p>
+			</div>
+		</footer>
+
+		<script src="../main.js"></script>
+	</body>
+</html>
